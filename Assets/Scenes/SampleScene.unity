@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 788478285}
   - component: {fileID: 788478284}
   - component: {fileID: 788478288}
+  - component: {fileID: 788478290}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -328,6 +329,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &788478290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788478283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c147e0b799aec743a9edbf9ceb0663c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3Force: {x: 1, y: 0, z: 0}
+  keyPositive: 275
+  keyNegative: 276
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,13 +420,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.00015694718, y: 0.64506054, z: -0.19416781, w: 0.7390506}
+  m_LocalRotation: {x: -0.00406915, y: 0.65982014, z: -0.19412467, w: 0.725904}
   m_LocalPosition: {x: -58.8, y: 17.8, z: -11.7}
   m_LocalScale: {x: 5.6135, y: 3.3957412, z: 0.5942607}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 14.493, y: 80.02, z: -17.256}
+  m_LocalEulerAnglesHint: {x: 14.493, y: 82.329, z: -17.256}
 --- !u!1 &2038631304
 GameObject:
   m_ObjectHideFlags: 0
